@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 4 Example</title>
+   <meta charset="utf-8">
+  <link rel="stylesheet"stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <style>
+   body{
+    background-color: #BCC1B8;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>ШКОЛА №45</h1>
+</div>
+<p>
+    <img src="https://foto.cheb.ru/foto/foto.cheb.ru-89080.jpg" width="460" height="400">
+
+  
+<div>
+
+муниципальное образование город Красноярск
+
+функции и полномочия учредителя осуществляет орган местного самоуправления администрация города Красноярска
+
+органом администрации города Красноярска, координирующим деятельность образовательной организации, а также осуществляющим в отношении  отдельные функции и полномочия учредителя, переданные данному органу в соответствии с правовыми актами города, является Главное управление образования администрации города Красноярска
+Местонахождение образовательной организации:	660012, Россия, Красноярский край, город Красноярск, ул. Судостроительная, д. 105
+Режим, график работы:	Понедельник – пятница с 08:00 до 18:00
+Суббота с 8:00 до 15:00
+Контактные телефоны:	(391)217-87-40
+Адрес электронной почты:	school45-krsk@mail.ru
+
+</div> 
+
+<div class="card">
+  <div class="card-header"><img src="https://img.rosbalt.ru/photobank/9/2/0/d/wkh8Wxpt-580.jpg" width="320" height="320"></div>
+  <div class="card-body">Дмитрий Нагиев(Физрук)</div>
+  <div class="card-footer"><button type="button" class="btn btn-dark"><a href="https://vignette.wikia.nocookie.net/anti-screamers/images/0/0b/%D0%94%D0%B6%D0%B5%D1%84%D1%84-Tumbaball.png/revision/latest?cb=20190618201310&path-prefix=ru">Посмотреть Профиль</button></a></div>
+</div>
+<div class="card">
+  <div class="card-header"><img src="https://img.rosbalt.ru/photobank/9/2/0/d/wkh8Wxpt-580.jpg" width="320" height="320"></div>
+  <div class="card-body">Дмитрий Нагиев(Физик)</div>
+  <div class="card-footer"><button type="button" class="btn btn-dark"><a href="https://vignette.wikia.nocookie.net/anti-screamers/images/0/0b/%D0%94%D0%B6%D0%B5%D1%84%D1%84-Tumbaball.png/revision/latest?cb=20190618201310&path-prefix=ru">Посмотреть Профиль</button></a></div>
+</div>
+<div class="card">
+  <div class="card-header"><img src="https://img.rosbalt.ru/photobank/9/2/0/d/wkh8Wxpt-580.jpg" width="320" height="320"></div>
+  <div class="card-body">Дмитрий Нагиев(Математик)</div>
+  <div class="card-footer"><button type="button" class="btn btn-dark"><a href="https://vignette.wikia.nocookie.net/anti-screamers/images/0/0b/%D0%94%D0%B6%D0%B5%D1%84%D1%84-Tumbaball.png/revision/latest?cb=20190618201310&path-prefix=ru">Посмотреть Профиль</button></a></div>
+</div>
+<div class="card">
+  <div class="card-header"><img src="https://img.rosbalt.ru/photobank/9/2/0/d/wkh8Wxpt-580.jpg" width="320" height="320"></div>
+  <div class="card-body">Дмитрий Нагиев(Биолого)</div>
+  <div class="card-footer"><button type="button" class="btn btn-dark"><a href="https://vignette.wikia.nocookie.net/anti-screamers/images/0/0b/%D0%94%D0%B6%D0%B5%D1%84%D1%84-Tumbaball.png/revision/latest?cb=20190618201310&path-prefix=ru">Посмотреть Профиль</button></a></div>
+</div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://mixnews.lv/wp-content/uploads/2019/11/22/1574367889_0042-e1574430618761.jpg" alt="Los Angeles" >
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.meme-arsenal.com/memes/50569ac974c29121ff9075e45a334942.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="https://bipbap.ru/wp-content/uploads/2017/04/72fqw2qq3kxh.jpg"  >
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+  <h2>Таблица лучших учителей в школе!</h2>
+            
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th>Имя</th>
+        <th>Ффмилие</th>
+        <th>Почта</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Дмитрий </td>
+        <td>Нагиев</td>
+        <td>nagiev@example.com</td>
+      </tr>
+      <tr>
+        <td>Дмитрий</td>
+        <td>Нагиев</td>
+        <td>nagiev@example.com</td>
+      </tr>
+      <tr>
+        <td>Дмитрий</td>
+        <td>Нагиев</td>
+        <td>nagiev@example.com</td>
+		
+		</tr>
+		<tr>
+		<td>Дмитрий</td>
+        <td>Нагиев</td>
+        <td>nagiev@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<button type="button" class="btn btn-dark"><a href="https://vignette.wikia.nocookie.net/anti-screamers/images/0/0b/%D0%94%D0%B6%D0%B5%D1%84%D1%84-Tumbaball.png/revision/latest?cb=20190618201310&path-prefix=ru">Запись в школу!!!!!!!!</button></a>
+
+ 
+</body>
+</html>
